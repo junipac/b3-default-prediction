@@ -1,0 +1,52 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Data — excluir dados brutos e processados, manter apenas samples
+data/raw/
+data/parquet/
+data/processed/merton_dataset.csv
+data/processed/merton_por_setor.csv
+data/processed/merton_sensibilidade.csv
+data/processed/merton_temporal.csv
+data/processed/pd_dataset_completo.csv
+data/processed/pd_por_rating.csv
+data/processed/pd_por_setor.csv
+
+# Reports (gerados automaticamente)
+data/reports/
+
+# Logs
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
